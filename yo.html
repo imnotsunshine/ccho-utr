@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Example</title>
+    <style>
+        body {
+            background-color: green; /* Nền màu xanh */
+            color: brown; /* Chữ màu nâu */
+        }
+        h1 {
+            position: absolute;
+            animation: move 5s linear infinite; /* Tạo hiệu ứng di chuyển */
+        }
+        @keyframes move {
+            0% {
+                left: -100%; /* Bắt đầu bên ngoài màn hình bên trái */
+            }
+            100% {
+                left: 100%; /* Kết thúc bên ngoài màn hình bên phải */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+</body>
+</html>
