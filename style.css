@@ -1,0 +1,5 @@
+/* Kai lemputė turi klasę "lights-on", ji bus nuspalvinta geltonai ir pridėtas šešėlis */
+.light-bulb.lights-on path {
+    fill: rgb(255, 136, 0); /* Spalvinti lemputę geltonai */
+    filter: drop-shadow(0 0 15px rgb(255, 183, 0)); /* Pridėti šviesą aplink lemputę */
+}
